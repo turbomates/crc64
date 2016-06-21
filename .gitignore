@@ -1,0 +1,7 @@
+/_build
+/cover
+/deps
+/priv/*
+!/priv/.gitkeep
+erl_crash.dump
+*.ez
