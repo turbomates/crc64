@@ -12,5 +12,5 @@ defmodule CRC64.Mixfile do
   end
 
   def application, do: [applications: []]
-  defp deps, do: [{:elixir_make, "~> 0.2.0"}]
+  defp deps, do: [{:elixir_make, "~> 0.3.0"}]
 end
