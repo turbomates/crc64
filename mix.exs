@@ -7,8 +7,8 @@ defmodule CRC64.Mixfile do
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     compilers: [:elixir_make] ++ Mix.compilers,
-     deps: deps]
+     compilers: [:elixir_make] ++ Mix.compilers(),
+     deps: deps()]
   end
 
   def application, do: [applications: []]
