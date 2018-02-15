@@ -2,7 +2,7 @@ defmodule CRC64 do
   @on_load :init
 
   def init do
-    path = Application.app_dir(:crc64, "priv/crc64_nif") |> String.to_char_list
+    path = Application.app_dir(:crc64, "priv/crc64_nif") |> String.to_charlist()
     :ok = :erlang.load_nif(path, 0)
   end
 
